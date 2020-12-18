@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab3",
+  "version": "1.0.0",
+  "description": "This is Lab3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Smita Rath 10458082",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
