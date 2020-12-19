@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Fibonacci Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/public/css/main.css">
+    </head>
+    <body>
+       <header>
+           <h1>Fibonacci Calculator</h1>
+       </header>
+       <form id="fib-form" method="POST">
+           <label  for="fib-id">
+               Enter the fibonnaci index
+           </label>
+           <input type="number" name="fib-index" id="fib-id" placeholder="index"/>
+           <button type="submit" id="btn-submit">Submit</button>
+       </form>
+
+       <div class="div-result">
+        <ol id="result">
+        </ol>
+       </div>
+
+       <div class="error" id="error-id" hidden>
+       </div> 
+
+       <footer id="footer">
+           <h6>Smita Rath 10458082 - MS Computer Science</h6>
+       </footer> 
+        <script src="/public/js/fibonacci.js"></script>
+    </body>
+</html>

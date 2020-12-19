@@ -1,0 +1,15 @@
+{
+  "name": "cs546lab11",
+  "version": "1.0.0",
+  "description": "This is lab 11",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Smita Rath 10458082",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

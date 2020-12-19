@@ -1,0 +1,19 @@
+<main>
+    <div>
+        <form id="login-form" action="/login" method="POST">
+        <label>
+            Username
+            <input id="username" name="username" placeholder="username"/>
+        </label>
+        <label>
+            Password
+            <input id="password" type="password" name="password"/>
+        </label>
+        <button type="submit" id="btn-id">Submit</button>
+        </form>
+    </div>
+
+    <div id="error-div">
+        <p class="error">{{error}}</p>
+    </div>
+</main>

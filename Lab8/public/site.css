@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 14pt;
+}
+
+
+body {
+	background: #dedede;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+	max-width: 75%;
+	margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color : blue
+}
+
+.multiple-list{
+    background-color: lightgrey;
+    width: 500px;
+    height: 400px;
+    border: 4px dotted black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.form-class {
+    background-color: lightgrey;
+    width: 300px;
+    border: 4px solid black;
+    padding: 50px;
+    margin: 20px;
+  }
+
+h2 {
+    text-align: center;
+    color : peru
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+dt{
+    color: purple;
+    font-weight: bolder;
+}
+
+dd{
+    font-weight: 200;
+}
+
+dd{
+    color: midnightblue;
+}
+
+.error{
+    color: red;
+    font-weight: bolder;
+}
+
+.not-found{
+    color:red;
+    font-weight: bolder;
+
+}
+button{
+    color :black;
+    background-color: blue;
+}
+
+input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+	font-weight: bold;
+}
+
+li{
+    font-size: medium;
+}
+
+.show-div {
+    text-align: center;
+    list-style-position: inside;
+}
+
+a:hover {
+    font-style: normal;
+    color: hotpink;
+  }
+
+  a:visited {
+    font-style: italic;
+    color: green;
+  }
+
+  .imgbox {
+    height: 300px;
+    width: 300pxpx;
+    overflow: hidden;
+    border: solid 5px #000;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
